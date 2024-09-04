@@ -25,7 +25,7 @@ function R(min,max) { return min+Math.random() * (max-min) };
 
 
 var typed = new Typed('#text', {
-    strings: ['Alam ko madami tayong hard times. Hindi ako nakakabawi sa mga nagawa ko and hindi tayo masyado nagkakaintindihan, pero gusto ko lang malaman mo na wala akong balak mawala o sumuko sayo. Alam natin parehas san tayo papunta at alam din natin na takbuhan natin yung isat isa. Sorry ulit sa mga pagkukulang ko. I promise to make it up to you and do even better. hindi lang para satin,para sakin din. sorry and I love you'],
+    strings: ['Im sorry for not being honest with you about having a girlfriend. I chose to be with you because you mean a lot to me. I understand that this is hard, and Im committed to rebuilding our trust'],
     startDelay: 3000,
     typeSpeed: 40,
     backSpeed: 0,
@@ -48,5 +48,5 @@ let audioReady = false;
     }
   }
 
-  const audio = new Audio('Palagi.mp3');
+  const audio = new Audio('Lauv.mp3');
   audio.addEventListener('loadedmetadata', onAudioLoad);
