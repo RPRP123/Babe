@@ -25,7 +25,7 @@ function R(min,max) { return min+Math.random() * (max-min) };
 
 
 var typed = new Typed('#text', {
-    strings: ['Im sorry for not being honest with you about having a girlfriend. I chose to be with you because you mean a lot to me. I understand that this is hard, and Im committed to rebuilding our trust'],
+    strings: ['I’m sorry for not being honest with you about having a girlfriend. I chose to be with you because you mean a lot to me. I understand that this is hard, and I’m committed to rebuilding our trust. I promise to never hurt you and to give you everything I have.'],
     startDelay: 3000,
     typeSpeed: 40,
     backSpeed: 0,
